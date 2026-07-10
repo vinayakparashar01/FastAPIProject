@@ -17,7 +17,6 @@ from starlette.exceptions import HTTPException as StarletteHTTPException
 import models
 from database import Base, engine, get_db
 from routers import posts, users
-from schemas import PostCreate, PostResponse
 
 
 @asynccontextmanager
